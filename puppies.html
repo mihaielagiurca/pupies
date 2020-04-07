@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--This is a Product Landing Page for FreeCodeCamp. I used images from http://unsplash.com. -->
+
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    
+  
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--mansory grid layout-->
+
+    <link rel="stylesheet" href="puppies.css">
+    <title>Shih Tzu</title>
+</head>
+<body>
+    <header id="header">  
+    <nav id="nav-bar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div id="header-img"  class="navbar-brand">
+          <img src="puppy1.jpg"> SHIH TZU
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pupies">Puppies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#form">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+
+     <div id="firstparagraph">
+        <h1 >Shih Tzu puppies</h1>
+     </div>
+    <div id="intro">
+      <p> &emsp; Shih Tzu is a short dog with large brown eyes and a soft and long double coat. It comes in a range of colours that have
+         various shades of white, brown, gold, and black. A dog weights 8.8 -16 lb. The bread is original from China and it was first 
+         recognized by the American Kennel Club in 1969.</p>
+    </div>
+  
+    <div id="video" class="embed-responsive embed-responsive-21by9" >
+     <iframe class="embed-responsive-item" src="https://youtube.com/embed/4MKoGSONPKI" allowfullscreen></iframe>
+        </div>
+    
+    <div class="row">
+        <div class="column" >
+            <div class="thumbnail">
+              <h2 id="pupies">Max</h2>
+              <img src="https://images.unsplash.com/photo-1564862092955-f75b41f70b2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="imag-fluid">
+              <p>Max is ready to come to you home and be your best friend. He is full of energy and can't wait to play with you.
+                  He is up to date on his vaccinations.</p>
+                <h4 >Price $550</h4>
+           </div>
+        </div>
+        
+        <div class="column" >
+            <div class="thumbnail">
+              <h2 >Bella</h2>
+         <img src="https://images.unsplash.com/photo-1527526029430-319f10814151?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+            <p>Hi! My name is Bella I am the faithful friend you have been looking for. I will be up to date on my vaccination upon arrival to my new home.
+                I can't wait!!!</p>
+              <h4 >Price $750</h4>
+           </div>
+        </div>
+      
+        <div class="column" > 
+            <div class="thumbnail">
+              <h2>Cody</h2>
+          <img src="https://images.unsplash.com/photo-1534628526458-a8de087b1123?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+            <p>Cody is a little guy who is full of energy and active all day. He is 11 months old and he can't wait to for the right person to pick him up. Don't miss out on this handsome guy!</p>
+            <h4 >Price $650</h4>
+           </div>
+        </div>
+    </div>
+    </div>
+<section>
+  <h3>Contact us:</h3>
+  <fieldset>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+    <div class="form-group">
+    <label for="name">Name:<br></label>
+        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+  </div>
+  <div class="form-group">
+    <label for="email">Email address:<br></label>
+        <input type="email" class="form-control" name="email" id="email" placeholder="Email address" required><br>
+    <button id="submit" type="submit" class="btn btn-default btn-light">
+      Submit
+  </button>
+  </div>
+</form>
+  </fieldset>
+</section>
+      <script src="https://kit.fontawesome.com/07a5a1332c.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
